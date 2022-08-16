@@ -1,0 +1,64 @@
+1.What is oops stands for?
+     oops is stands for Object Oriented Programming Languagae.
+
+2.What is Polymorphism? explain types?
+     Multiple form of implementation is called Polymorphism.
+Types of Polymorphism:
+     1.Overloading/Compiletime/Static Binding
+     2.Overriding/Runtime/Dynamic
+
+3.what is interface and example in selenium,java?
+     Interface is a Design.
+     Interface is contains static constants and abstract methods.
+     It gives statement form.(methods without a body)
+     Public and Default access modifer used in Interface.
+Example in Selenium:
+     RemoteWebDriver implements WebDriver
+     
+4.what is abstarct class and example?
+     Abstract class is a partial implement and unimplement method.
+     If you need future uses to use abstract class.
+Example in Selenium:
+     driver.findelement(by.By) 
+    
+5.Difference between multiple inheritance and multilevel inheritance
+1.Multiple Inheritance:
+     1.Class level is not possible in Java.
+     2.Multiple Inheritance is not widely used because it makes the system more complex.
+     3.It has two class levels namely base class and derived class.
+2.Multilevel Inheritance:
+     1.Class level is possible in Java.
+     2.Multilevel Inheritance is widely used .
+     3.It has three class levels namely base class,intermediate class and derived class.
+
+6.Is multiple inheritance possible in java?
+      No,Class level is not possible in java but interface level is possible.
+
+7.What is keyword for using inheritance  
+      Extends is a keyword for using inheritance.
+
+8.what is the keyword to connect interface and class
+      Implements is the keyword to connect interface and class.
+
+9.what is difference between class and interface
+1.Class:
+      1.Class can contain concrete(with implementation methods).
+      2.The access specifiers used with classes are public,private and protected.
+2.Interface:
+      1.The interface cannot contain concrete(with implementation methods).
+      2.In interface only one specifier is used(public).
+
+10.what is difference between class and abstract class
+1.Class:
+      1.A class cannot contain an abstract method.
+      2.A class can be declared as final.
+      3.A class is not declared using abstract modifier.
+2.AbstractClass:
+      1.An abstract class may or may not contain abtract methods.
+      2.An abstract class cannot be declared as final.
+      3.An abstract class is declared using abstract modifier.
+
+
+
+
+

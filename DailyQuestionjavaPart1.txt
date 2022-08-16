@@ -1,0 +1,78 @@
+
+1.Explain about the main method in java?
+     public static void main(String args[]) is the main method in java.
+      1.public is a access modifier.
+      2.static is a keyword.
+      3.void is a return type of the method.It does not return anything.
+      4.main is a main method of JVM entry point.
+
+2.What are the different  Control flow Statements available in java?
+     Three control flow statements available in java.
+     1.Decision Making Statement:
+        1.if statement
+        2.if-else statement
+     2.Looping Statement:
+        1.for condition
+        2.while condition
+     3.Jumping Statement:
+        1.continue
+        2.break
+     
+3.What is the Difference betweeen break and continue statements?
+1.Break Statements:
+     1.The break statement is used to terminate the loop immediately.
+     2.We can use a break with the switch statement.
+     3.The break statement terminates the whole loop early.
+2.Continue Statements:
+     1.The continue statement is used to skip the current iteration of the loop.
+     2.We can not use a continue with the switch statement.
+     3.The break statement terminates the whole loop early.
+
+4.What is an Array?
+     Array is a group of similar datatype in a same datatype.
+How will you declare an array in java?
+     1.Array using literal:
+        datatypes[] a= {25, 50, 75, 100};
+     2.Using new keyword:
+        datatypes[] object=new int[];
+
+5.When will you get ArrayIndexOutOfBoundsException?
+      ArrayIndexOutOfBoundsException occurs when we access an array, or a Collection, 
+that is backed by an array with an invalid index.
+
+6.Define the Syntax to create an object for a class.
+     1.Syntax for class:
+         ClassName object = new ClassName();
+What are the naming conventions to be followed while creating a class, 
+method and a variable.Explain with examples
+     1.Class:
+         It should start with the uppercase letter.(ex:Student)
+     2.Method:
+         It should start with lowercase letter followed by an uppercase letter.(ex:sendDocument)
+     3.Variable:
+         It should start with a lowercase letter.(ex:id)
+        
+             
+7.What is Variable?
+     1.Variables are the basic unit of storage in a programming language. 
+     2.These variables consist of a data type,the variable name and the value to be assigned to the variable.
+How will you declare a variables in java?  
+      datatypes variableName=value;
+     
+8.What is String in java? 
+     1.The sequence of charater is called "String".
+     2.String is a non-primitive data type.
+     3.String is immutable.
+Is it a Data Type?
+     Yes,String is a data type.
+     
+9.What are the different ways to create the String Object in java?
+There are two ways to create a String object:
+     1.String literal:
+        String name="TestLeaf";
+     2.Using New Keyword:
+        String object=new String("TestLeaf");
+
+10.What is the Difference between .Equals and ==? 
+     1..equals method for check content comparsion.
+     2.== method for check memory address.
